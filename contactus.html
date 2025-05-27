@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kape Bartolina</title>
+    <!-- Linking Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="Icon" type="Images/png" href="Images/logo.jpg">
+</head>
+<body>
+    <!-- Header and Navbar  -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">&#9749; Kape Bartolina</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-items">
+                    <a href="index.html" class="nav-links">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="gallery.html" class="nav-links">Gallery</a>
+                </li>
+                <li class="nav-items">
+                    <a href="services.html" class="nav-links">Services</a>
+                </li>
+                <li class="nav-items">
+                    <a href="Testimonial.html" class="nav-links">Testimonials</a>
+                </li>
+                <li class="nav-items">
+                    <a href="aboutus.html" class="nav-links">About Us</a>
+                </li>
+                <li class="nav-items">
+                    <a href="contactus.html" class="nav-links">Contact Us</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <!-- Contact Information Section -->
+    <section class="contact-section">
+        <h2 class="selection-title">Contact Us</h2>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-regular fa-envelope">
+                        <p>KapeBartolina23@gmail.com</p>
+                    </i>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock">
+                        <p>Monday - Friday: 7:00 AM - 10:00 PM</p>
+                    </i>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-clock">
+                        <p>Saturday - Sunday: Closed</p>
+                    </i>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-phone">
+                        <p>0994-458-7492</p>
+                    </i>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-crosshairs">
+                        <p>Chicago Street Don Cornelio Subdivision, Mabalacat City.</p>
+                    </i>
+                </li>
+            </ul>
+
+            <form id="contactForm" class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your name" class="form-input" required>
+                <input type="email" placeholder="Your email" class="form-input" required>
+                <textarea placeholder="Your message" class="form-input" id="form-input" required></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Google Map Section -->
+    <section class="map-section">
+        <h2 class="selection-title">Visit Us</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.5019210109567!2d120.58026012414645!3d15.185674385373009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396ed99a6c3fa2f%3A0x8b0360764031aca0!2sDon%20Cornelio%20Subdivision%2C%20Mabalacat%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1748102155872!5m2!1sen!2sph" 
+            width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">&copy; 2025 Kape Bartolina</p>
+
+            <div class="social-link-list">
+                <a href="https://www.facebook.com/kape.bartolina" class="social-link"><i class="fa-brands
+                fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kapebartolina_23?igsh=bXM2cGFobnRmaGZh" class="social-link"><i class="fa-brands
+                fa-instagram"></i></a>
+                <a href="https://x.com/KapeB74804?t=YknMLxJQ43oJjnNgRp0hWg&s=09" class="social-link"><i class="fa-brands
+                fa-twitter"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="webprofile.html" class="policy-links">Web Designer Profile</a>
+                <span class="seperator">•</span>
+                <a href="mandv.html" class="policy-links">Mission and Vision</a>
+                <span class="seperator">•</span>
+                <a href="news.html" class="policy-links">News</a>
+                <span class="seperator">•</span>
+                <a href="faqs.html" class="policy-links">FAQs</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
